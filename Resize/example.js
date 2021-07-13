@@ -1,5 +1,4 @@
 const jimp = require('jimp');
-
 jimp.read('example_1.jpg')
     .then(image => {
         image
